@@ -159,6 +159,7 @@ span {
 
 .connect-text {
   font-size: 0.8rem;
+  padding-right: 100px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
