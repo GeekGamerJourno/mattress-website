@@ -84,7 +84,8 @@ title: Mattress|Example
             <div class="col-4_sm-12_sm-hidden">
             </div>
             <div class="col-4_sm-12 container">
-                <form action="mailto:kallee@kallee.com.au">
+                <form method="post" action="/index.html">
+                  <input type="hidden" name="_to" value="kallee@kallee.com.au"><!--sends the form to my email-->
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
                   <input type="text" id="email" name="email" placeholder="Your email..">
                   <textarea id="subject" name="subject" placeholder="Tell us what you want to say..." style="height:200px"></textarea>
